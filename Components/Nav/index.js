@@ -38,7 +38,7 @@ export default index;
 
 const styles = {
   navContainer: {
-    display: ['none', 'flex', 'flex'],
+    display: ['none'],
     // background: '#ffff',
       transform: 'rotate(270deg)',
       position: 'relative',
