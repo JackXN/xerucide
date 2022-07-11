@@ -6,6 +6,7 @@ import Image from "next/image";
 // Components
 import { Box, Text } from "@chakra-ui/react";
 import Nav from '../Components/Nav/index';
+import Homepage from '../Components/Homepage/Homepage';
 
 export default function Home() {
   return (
@@ -16,11 +17,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com"  />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+
+
         <link
           href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap"
           rel="stylesheet"
         />
       </Head>
+
       <header className="load-in">
         <Box className="noise"> </Box>
         <Box sx={styles.container}>
@@ -41,6 +49,12 @@ export default function Home() {
           </Box>
         </Box>
       </header>
+
+      <div className='homepage-container'>
+        <Homepage/>
+      </div>
+
+
   
     </>
   );

@@ -204,10 +204,18 @@ a {
 @media screen and (min-width:500px) {
  
   .glitch {
-    font-size: 3rem;
+    font-size: 5rem;
 
   }
 
+}
+
+
+
+@media screen and (min-width:900px) {
+  .glitch {
+    font-size: 7rem;
+  }
 }
 
 .glitchTwo {
