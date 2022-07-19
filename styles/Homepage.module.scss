@@ -1,8 +1,32 @@
 
 .container{
     background: black;
-    height: 200vh
+    height: 200vh;
+    background-image: url('/neonbg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
+
+
+.header {
+    display: flex;
+    background: orange;
+    text-align: center;
+    justify-content: center;
+}
+
+.content {
+    border: solid white 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
 
 
 
