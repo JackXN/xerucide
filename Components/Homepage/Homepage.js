@@ -14,17 +14,19 @@ const Homepage = () => {
     return (
         <Box sx={styles.container}>
             <Box sx={styles.header}>
-                <Text as='h1' color='white'>
-                    PERSPECTIVES
+                <Text as='h1' color='white' className='glitch'>
+                <span aira-hidden="true">PERSPECTIVES</span>
+                PERSPECTIVES
+                <span aira-hidden="true">PERSPECTIVES</span>
                 </Text>
             </Box>
-            <Box sx={styles.content}>
+            <Box sx={styles.content} className='glitch'>
 <img src='/italicsArt.jpeg' alt='image test'/>
             </Box>
             <Box sx={styles.footer}>
             <Text as='h1' fontFamily='Roboto' fontWeight='bold'>OUT NOW</Text>
             <Box sx={styles.button}>
-                <Button sx={styles.spotifyButton} padding='10px'>
+                <Button sx={styles.spotifyButton} >
                 <Spotify color='#1ED760'/>
                 <Text as='p' ml='10px'>Listen On</Text>
                 <Text as='h2' color='#1ED760' margin='5px'>Spotify</Text>
@@ -39,7 +41,7 @@ const Homepage = () => {
 
 const styles = {
     container: {
-        backgroundImage: 'url(/neonbg.png)',
+        backgroundImage: 'url(/bg.png)',
         backgroundPosition: ['left', 'right'],
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -72,14 +74,18 @@ const styles = {
         flexDirection: 'column',
         textAlign: 'center',
         mb: ['20px'],
-        mt:['20px']
+
+        'h1': {
+        fontSize: ['20px'],
+        }
     },
     spotifyButton: {
-        backgroundColor: '#000000',
+        backgroundColor: 'rgba(0,0,0,0.5)',
         mt: '17px',
         borderRadius: '20px',
         fontFamily: 'Roboto',
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        padding: '20px'
         
     }
 }
