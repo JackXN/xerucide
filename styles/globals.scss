@@ -471,7 +471,12 @@ h1 {
 
 .batchSub {
   font-size: 15px;
-  color: var(--text-color);
+  // color: var(--text-color);
+  color: black;
+  margin-top: 5px;
+  padding: 0 10px 0 10px;
+  background: var(--text-color);
+  
 }
 
 h2 {

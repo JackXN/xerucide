@@ -17,7 +17,7 @@ const UnderConstruction = () => {
        <img src='./prank_glasses.svg' alt='logo' height='150px' width='150px'/>
        <h1 style={{fontSize: '34px', fontWeight: 'bold'}} className='batchTitle'>BATCHFORUM:$<span class="cursor">|</span></h1>
 
-       <p className='batchSub'>January 2022</p>
+       <p className='batchSub'>2023</p>
    </div>
     
 
