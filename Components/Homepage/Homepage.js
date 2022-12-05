@@ -41,7 +41,7 @@ const Homepage = () => {
 
 const styles = {
     container: {
-        backgroundImage: 'url(/bg.png)',
+        backgroundImage: 'url(/bg2.png)',
         backgroundPosition: ['left', 'right'],
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -56,7 +56,7 @@ const styles = {
 
         "h1" : {
             fontSize: ['27px'],
-            fontFamily: 'Xenon',
+            fontFamily: 'Sakurata',
             mt: ['150px']
             
 
@@ -83,7 +83,7 @@ const styles = {
         backgroundColor: 'rgba(0,0,0,0.5)',
         mt: '17px',
         borderRadius: '20px',
-        fontFamily: 'Roboto',
+        fontFamily: 'Sakurata',
         fontWeight: 'bold',
         padding: '20px'
         

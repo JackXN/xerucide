@@ -52,7 +52,7 @@ const styles = {
     mt: '20px',
     mb: '20px',
     fontSize: ['20px'],
-    fontFamily:'Xenon',
+    fontFamily:'Poppins',
    color:'white',
    textUnderline: 'false',
 
